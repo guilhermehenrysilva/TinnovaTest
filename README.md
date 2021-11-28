@@ -41,13 +41,13 @@
 - Caso o launcher do lombok não encontre sua IDE, selecione "Specify location..." e aponte o caminho da mesma.
 - Com a IDE selecionada no launcher, selecione a opção "Install/Update".
 <p align="center">
-<img src="./readmeInfos/img/lombok.png" width="600"/>
+<img src="./readmeInfos/img/lombok.PNG" width="600"/>
 </p>
 </br>
 
 - Pronto! Você ja pode iniciar um dos projetos da lista abaixo para realizar a conferencia =)
 <p align="center">
-<img src="./readmeInfos/img/projetosList.png" width="600"/>
+<img src="./readmeInfos/img/projetosList.PNG" width="600"/>
 </p>
 </br></br>
 
