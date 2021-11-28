@@ -37,15 +37,15 @@ public class VeiculoService {
 	
 	@Transactional
     public Veiculo atualizarCampoEspecifico(Long veiculoId, Map<Object, Object> fields) throws Exception {
-        Veiculo veiculoExistente = veiculoRepository.findById(veiculoId).orElseThrow(() -> new Exception("Não existe veículo."));
+        Veiculo veiculoAtual = veiculoRepository.findById(veiculoId).orElseThrow(() -> new Exception("Nenhum veiculo encontrado com este ID."));
 
         fields.forEach((k, v) -> {
             Field field = ReflectionUtils.findField(Veiculo.class, (String) k);
             field.setAccessible(true);
-            ReflectionUtils.setField(field, veiculoExistente, v);
+            ReflectionUtils.setField(field, veiculoAtual, v);
         });
-
-        return this.salvar(veiculoExistente);
+        veiculoAtual.setAtualizado(new Date());
+        return this.salvar(veiculoAtual);
     }
 
 	@Transactional
