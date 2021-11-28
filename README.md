@@ -32,7 +32,7 @@
 
 - Abra o arquivo "application.properties" e configure o username e password conforme definido durante a instalação do postgresql.
 <p align="center">
-<img src="./readmeInfos/gif/Pgpass.gif" width="1000"/>
+<img src="./readmeInfos/gif/pgpass.gif" width="1000"/>
 </p>
 </br>
 
