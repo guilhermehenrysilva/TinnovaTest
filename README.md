@@ -1,7 +1,7 @@
 # Tinnova
 
 <p align="center">
-  <img src="./readmeInfos/img/logo.jpg" width="200"/>
+  <img src="./readmeInfos/img/logo.png" width="200"/>
 </p>
 
 <p align="center"> 
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="#🎯-Requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#☑️-Requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#⚛️-Configurando o ambiente">Configurando o ambiente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#🧠-Desafios">Desafios</a>&nbsp;&nbsp;&nbsp;
 
@@ -21,14 +21,14 @@
 </p>
 </br>
 
-## 🎯 Requisitos
+## ☑️ Requisitos
 - PostgreSql;
 - Lombok;
 - Spring Tool Suite 4;
 </br></br>
 
 ## ⚛️ Configurando o ambiente
-### PostgreSql
+### 🔶PostgreSql
 - Inicie o PgAdmin e crie a database "veiculo".
 <p align="center">
 <img src="./readmeInfos/gif/database.gif" width="1000"/>
@@ -40,7 +40,7 @@
 </p>
 </br>
 
-### Lombok
+### 🔶Lombok
 - Com a IDE fechada, abra o arquivo "lombok-1.18.22.jar" localizado por padrão em: "C:/Users/SEU_USUARIO/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" (Windows)
 - Caso o launcher do lombok não encontre sua IDE, selecione "Specify location..." e aponte o caminho da mesma.
 - Com a IDE selecionada no launcher, selecione a opção "Install/Update".
@@ -55,7 +55,7 @@
 </p>
 </br>
 
-### Configurando o Veiculo-React (FrontEnd)
+### 🔶Configurando o Veiculo-React (FrontEnd)
 - Abra o projeto "veiculo-react" no VS Code e rode os seguintes comandos:
 ```bash
 ### Instalar as dependências
@@ -71,31 +71,31 @@ $ npm start
 
 
 ## 🧠 Desafios
-- Exercicio 1 - Eleitor
+- 🔶Exercicio 1 - Eleitor
 <p align="center">
 <img src="./readmeInfos/gif/E1-eleitor.gif" width="1000"/>
 </p>
 </br>
 
-- Exercicio 2 - Bubblesort
+- 🔶Exercicio 2 - Bubblesort
 <p align="center">
 <img src="./readmeInfos/gif/E2-bubblesort.gif" width="1000"/>
 </p>
 </br>
 
-- Exercicio 3 - Fatorial
+- 🔶Exercicio 3 - Fatorial
 <p align="center">
 <img src="./readmeInfos/gif/E3-fatorial.gif" width="1000"/>
 </p>
 </br>
 
-- Exercicio 4 - Multiplos
+- 🔶Exercicio 4 - Multiplos
 <p align="center">
 <img src="./readmeInfos/gif/E4-multiplos.gif" width="1000"/>
 </p>
 </br>
 
-## Exercicio 5 - Veiculo API (Backend)
+## 🔶Exercicio 5 - Veiculo API (Backend)
 - POST (Adicionar Veiculo)
 <p align="center">
 <img src="./readmeInfos/gif/Adicionar.gif" width="1000"/>
@@ -153,6 +153,7 @@ $ npm start
 <img src="./readmeInfos/img/rodape.jpg" width="1000"/>
 </p>
 
+ ###### Recebido em: 27/11/2021 09:47 - Ultima atualização: 29/11/2021 08:31
 
 ---
 
