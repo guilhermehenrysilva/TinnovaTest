@@ -1,0 +1,24 @@
+.conteudo li{
+    list-style: none;
+    text-align: center;
+    margin-top: 28px;
+    padding: 6px;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+.conteudo li:hover{
+    border: 1px solid grey;
+}
+
+.conteudo h1{
+    text-align: center;
+}
+
+.conteudo li button{
+    background-color: #ce2f2f;
+    color: #f6f6f6;
+    border: none;
+    width: 200px;
+    height: 60px;
+}

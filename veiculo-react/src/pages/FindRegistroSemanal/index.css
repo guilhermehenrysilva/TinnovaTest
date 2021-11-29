@@ -1,0 +1,16 @@
+.conteudo li{
+    list-style: none;
+    text-align: center;
+    margin-top: 28px;
+    padding: 6px;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+.conteudo li:hover{
+    border: 1px solid grey;
+}
+
+.conteudo h1{
+    text-align: center;
+}

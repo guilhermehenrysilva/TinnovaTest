@@ -16,6 +16,10 @@
 </p>
 </br></br>
 
+<p align="center">
+<img src="./readmeInfos/img/veiculo-react.PNG" width="1000"/>
+</p>
+</br>
 
 ## 🎯 Requisitos
 - PostgreSql;
@@ -49,7 +53,22 @@
 <p align="center">
 <img src="./readmeInfos/img/projetosList.PNG" width="600"/>
 </p>
-</br></br>
+</br>
+
+### Configurando o Veiculo-React (FrontEnd)
+- Abra o projeto "veiculo-react" no VS Code e rode os seguintes comandos:
+```bash
+### Instalar as dependências
+$ npm install
+
+###Instalar o módulo para manipular rotas
+$ npm install --save react-router-dom
+
+### Rodar o projeto (Necessario estar com a API rodando)
+$ npm start
+```
+</br>
+
 
 ## 🧠 Desafios
 - Exercicio 1 - Eleitor
